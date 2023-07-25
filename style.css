@@ -1,0 +1,62 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('images/bg-stars.svg');
+    padding: 0;
+    background-color: #211D2B;
+    color: #fff;
+    font-family: 'Red Hat Text', sans-serif;
+}
+.mountain{
+    width: 100%;
+    height: 150px;
+    background-image: url('images/pattern-hills.svg');
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    z-index: -999;
+}
+body .title{
+    position: absolute;
+    top:100px;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+}
+body .title i{
+    font-size: 60px;
+    margin-left: 20px;
+    color: #D45070;
+}
+.card{
+    background-color: #33354E;
+    color: #D45070;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card-body h5{
+    font-size: 70px;
+}
+
+.col h6{
+    font-size: 30px;
+    margin-right: 50px;
+    margin-top: 30px;
+    color: #8985A1;
+}
+
+footer{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+}
+footer .socials a{
+    text-decoration: none;
+    margin: 10px;
+}
