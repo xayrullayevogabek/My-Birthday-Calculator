@@ -35,7 +35,7 @@ const updateCountdown = () => {
 
         setTimeout(() => {
             updateTime = setInterval(updateCountdown,1000)
-        },86400)
+        },2000)
     }
 
 }
